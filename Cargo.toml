@@ -1,5 +1,5 @@
 [package]
-name = "bevy_notify"
+name = "bevy_monitors"
 description = "A reactive(ish) crate for the bevy engine"
 
 authors = [ "Freyja Moth" ]
