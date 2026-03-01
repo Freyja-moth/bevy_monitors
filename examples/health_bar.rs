@@ -2,7 +2,7 @@ use bevy::{
     color::palettes::css, input::common_conditions::input_just_pressed, prelude::*,
     ui_widgets::observe,
 };
-use bevy_notify::prelude::*;
+use bevy_monitors::prelude::*;
 
 #[derive(EntityEvent)]
 pub struct Hurt {
