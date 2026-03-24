@@ -11,9 +11,9 @@ version = "0.2.2"
 edition = "2024"
 
 [dependencies]
-bevy_app = "0.18.0"
-bevy_ecs = "0.18.0"
-bevy_reflect = "0.18.0"
+bevy_app = { git = "https://github.com/bevyengine/bevy" }
+bevy_ecs = { git = "https://github.com/bevyengine/bevy" }
+bevy_reflect = { git = "https://github.com/bevyengine/bevy" }
 
 [dev-dependencies]
-bevy = { version = "0.18.0", features = ["experimental_bevy_ui_widgets"] }
+bevy = { git = "https://github.com/bevyengine/bevy", features = ["bevy_ui_widgets"] }
