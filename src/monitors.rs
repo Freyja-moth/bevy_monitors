@@ -22,7 +22,7 @@ pub struct MonitoredBy(Vec<Entity>);
 /// See [`NotifyChanged`], [`NotifyAdded`], and [`NotifyRemoved`], for how to define reactions.
 ///
 /// ```rust
-/// # use bevy_notify::prelude::*;
+/// # use bevy_monitors::prelude::*;
 /// # use bevy::{prelude::*, ui_widgets::observe};
 ///
 /// # #[derive(Component)]
